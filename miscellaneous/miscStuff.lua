@@ -1,5 +1,5 @@
 --[[ music ]]
-playSound ("files/sad-dream.mp3", true)
+playSound ("files/song.mp3", true)
 
 
 --[[ misc ]]
