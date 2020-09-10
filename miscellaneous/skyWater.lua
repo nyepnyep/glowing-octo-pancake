@@ -1,6 +1,7 @@
 --[[ 
-    sky & water
-    
+    sky & water shader by Ren712
+
+
     include the "files" folder in your map for this to work
 ]]
 addEventHandler( "onClientResourceStart", getResourceRootElement( getThisResource()),
