@@ -1,4 +1,6 @@
 # OwO
+
+a guide for scripts on (mainly) mta dm mapping
 _______________________________________________________
 import scripts into c_nyep.lua >>>> "-- add scripts here"
 
