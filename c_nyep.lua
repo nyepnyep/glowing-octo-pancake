@@ -1,4 +1,6 @@
--- Always work in this file, don't make more files for different things
+-- Always work in this file, don't make more files
+
+-- include in meta:    <script src="c_nyep.lua" type="client"></script>
 
 local getMe=getLocalPlayer()
 

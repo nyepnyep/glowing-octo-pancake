@@ -1,4 +1,4 @@
--- music
+-- music                (doesn't include the disabling as that's usually handled by servers nowadays)
 playSound ("files/song.mp3", true)
 
 -- disable the sun

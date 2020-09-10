@@ -1,4 +1,22 @@
--- [[ magnet ]]
+--[[ 
+    magnet by krzyzstof
+
+    to use:
+    place a corona ingame with the following color values:
+    TURN ON:
+        > RED: 0
+        > GREEN: 255
+        > BLUE: 0
+        > ALPHA: 0
+
+    TURN OFF:
+        > RED: 255
+        > GREEN: 0
+        > BLUE: 0
+        > ALPHA: 0
+
+    if a marker does not match the EXACT values, it'll not turn magnetic wheels on or off
+    ]]
 local power = 0.008
 					 
 					 

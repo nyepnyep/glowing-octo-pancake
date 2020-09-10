@@ -1,4 +1,8 @@
---[[ sky & water ]]
+--[[ 
+    sky & water
+    
+    include the "files" folder in your map for this to work
+]]
 addEventHandler( "onClientResourceStart", getResourceRootElement( getThisResource()),
 	function()
 		outputDebugString('/sSkyAlt to switch the effect')

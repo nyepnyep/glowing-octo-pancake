@@ -1,4 +1,4 @@
---[[ infinite nos ]]
+--[[ infinite nos by N3xT ]]
 addEventHandler ( "onClientRender", root,
 function ( )
     local vehicle = getPedOccupiedVehicle ( localPlayer )
