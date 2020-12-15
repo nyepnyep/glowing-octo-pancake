@@ -3,7 +3,7 @@
     resets the gravity after 2500ms
 
     change "setGravity (-0.008)" to change the gravity
-            ^^^^^^^^^^^^^^^^^^^
+                        ^^^^^^
 
     change "end, 2500, 1)" to change the interval time
                  ^^^^
