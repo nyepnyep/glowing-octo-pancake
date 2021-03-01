@@ -1,6 +1,6 @@
 -- Always work in this file, don't make more files
 
--- include in meta:    <script src="c_nyep.lua" type="client"></script>
+-- include in meta:    <script src="c_main.lua" type="client"></script>
 
 local getMe=getLocalPlayer()
 
@@ -12,7 +12,7 @@ marker4 = createMarker (0, 0, 0, "corona", 5, 85, 85, 85, 85) -- posX, posY, pos
 marker5 = createMarker (0, 0, 0, "corona", 5, 85, 85, 85, 85) -- posX, posY, posZ, "type", size, r, g, b, a
 
 --[[ functions ]]
-function nyepnyep(hitPlayer)
+function mainEvents(hitPlayer)
     if hitPlayer~=getMe then return end
     vehicle=getPedOccupiedVehicle(hitPlayer)
     if source == marker1 then
@@ -31,4 +31,4 @@ function nyepnyep(hitPlayer)
         -- add script here
     end
 end
-addEventHandler("onClientMarkerHit",getResourceRootElement(getThisResource()),nyepnyep)
+addEventHandler("onClientMarkerHit",getResourceRootElement(getThisResource()),mainEvents)
