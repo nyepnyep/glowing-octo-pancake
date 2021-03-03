@@ -2,7 +2,7 @@
 
 a guide for scripts on (mainly) mta dm mapping
 _______________________________________________________
-import scripts into c_nyep.lua >>>> "-- add scripts here"
+import scripts into main.lua >>>> "-- add scripts here"
 
 
 I highly recommend using code editors such as Visual Studio Code or Atom to edit lua files
